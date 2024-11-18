@@ -1,0 +1,106 @@
+.wsus__about_accordian {
+  margin-top: 70px;
+}
+
+.wsus__about_accordian h4,
+.wsus__about_client_boost h4,
+.wsus__about_award h4,
+.wsus__about_team h4,
+.wsus__faq_heading h4,
+.wsus__why_shop h3 {
+  text-transform: capitalize;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.wsus__about_accordian .accordion-item:first-of-type .accordion-button {
+  border-radius: 0 !important;
+}
+
+.wsus__about_accordian .accordion-body {
+  padding: 1rem 1.25rem;
+  border: 1px solid #def0ff;
+}
+
+.wsus__about_accordian .accordion-body p {
+  font-size: 14px;
+}
+
+.wsus__about_accordian img {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.wsus__about_accordian .accordion {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.wsus__about_counter_area {
+  margin-top: 70px;
+}
+
+.wsus__about_award {
+  margin-top: 70px;
+  background: #fff;
+  padding: 70px 0px;
+}
+
+.wsus__about_counter_single {
+  border-radius: 5px;
+  padding: 55px 40px 40px 40px;
+  text-align: center;
+  background: #fff;
+  box-shadow: rgb(50 50 93 / 15%) 0px 0px 5px 0px;
+}
+
+.wsus__about_counter_single span {
+  font-size: 40px;
+  font-weight: 600;
+  color: #08C;
+}
+
+.wsus__about_counter_single h2 {
+  text-transform: capitalize;
+  font-size: 16px;
+  /* font-weight: 600; */
+  margin-top: 20px;
+}
+
+.wsus__why_shop {
+  margin-top: 65px;
+}
+
+.wsus__why_shop h3 {
+  text-align: center;
+}
+
+.wsus__why_shop_single {
+  border: 1px solid #eee;
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 30px 15px;
+  text-align: center;
+  background: #fff;
+  box-shadow: rgb(50 50 93 / 15%) 0px 0px 5px 0px;
+}
+
+.wsus__why_shop_single i {
+  font-size: 60px;
+  color: #08C;
+  margin-bottom: 20px;
+}
+
+.wsus__why_shop_single p {
+  color: #353535;
+  font-weight: 500;
+  font-size: 14px;
+}

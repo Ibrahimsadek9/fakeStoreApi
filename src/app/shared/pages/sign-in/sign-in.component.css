@@ -1,0 +1,242 @@
+@import 'toastr/build/toastr.min.css';
+/*======================
+BREADCRUMB START
+========================*/
+#wsus__breadcrumb {
+  background: url(../../../../assets/images/breadcrumb_bg.jpg);
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+}
+
+.wsus_breadcrumb_overlay {
+  background: #0b2c3dc9;
+  padding: 100px 0px;
+}
+
+#wsus__breadcrumb h4 {
+  text-transform: capitalize;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 500;
+}
+
+#wsus__breadcrumb ul {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+#wsus__breadcrumb ul li a {
+  position: relative;
+  text-transform: capitalize;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  margin-right: 40px;
+}
+
+#wsus__breadcrumb ul li:last-child a {
+  margin: 0;
+  color: #54b3fd;
+}
+
+#wsus__breadcrumb ul li:last-child a::after {
+  display: none;
+}
+
+#wsus__breadcrumb ul li a::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-style: normal;
+  position: absolute;
+  content: "\f138";
+  top: 1px;
+  right: -25px;
+  color: #fff;
+  font-size: 14px;
+  border: none;
+}
+
+/*======================
+BREADCRUMB END
+========================*/
+
+#wsus__login_register {
+  padding-top: 70px;
+  position: relative;
+}
+
+.wsus__login_reg_area {
+  padding: 40px;
+  border-radius: 5px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background: #fff;
+}
+
+.wsus__login_reg_area ul.nav-pills {
+  justify-content: space-between;
+}
+
+.wsus__login_reg_area .nav-item {
+  width: 50%;
+}
+
+.wsus__login_reg_area .nav-item .nav-link {
+  width: 100%;
+  text-transform: capitalize;
+  font-size: 18px;
+  font-weight: 400;
+  color: #08C;
+  background: #eeeeee;
+  outline: none;
+  border-radius: 30px;
+  border: none;
+}
+
+.wsus__login_reg_area .nav-pills .nav-link.active,
+.wsus__login_reg_area .nav-pills .show>.nav-link {
+  color: #fff !important;
+  border-color: #08C !important;
+  background: #08C !important;
+}
+
+.wsus__login_input {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.wsus__login_input i {
+  width: 57px;
+  height: 47px;
+  background: #08C;
+  line-height: 45px;
+  text-align: center;
+  margin-right: 10px;
+  color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.wsus__login_input input {
+  width: 100%;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #353535;
+  border: 1px solid #08C;
+}
+
+.wsus__login_save {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0px;
+}
+
+.wsus__login_save .form-check {
+  margin-bottom: 0;
+}
+
+.wsus__login_save .form-check input {
+  border-radius: 20px !important;
+}
+
+.wsus__login .forget_p {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: red;
+}
+
+.wsus__login button {
+  width: 100%;
+  border-radius: 30px;
+  background-color: #08C; /* Set background color */
+  border: 2px solid #08C; /* Set border color */
+  color: #fff; /* Set text color to white for contrast */
+  padding: 10px 20px; /* Optional: Add padding for better spacing */
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.edited {
+  margin: 25px 0;
+}
+
+
+.wsus__login .social_text {
+  text-align: center;
+  text-transform: capitalize;
+  margin: 20px 0px 15px 0px;
+}
+
+.wsus__login_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wsus__login_link li a {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  margin: 0px 5px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 12px;
+}
+
+.wsus__login_link li:nth-child(1) a {
+  background: #e14032;
+}
+
+.wsus__login_link li:nth-child(2) a {
+  background: #1873eb;
+}
+
+.wsus__login_link li:nth-child(3) a {
+  background: #1c9cea;
+}
+
+.wsus__login_link li:nth-child(4) a {
+  background: #2464ad;
+}
+
+.wsus__login_text_position {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: center;
+  width: 100%;
+}
+
+.wsus__login_text_position h6 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+}
+
+.wsus__login_text_position h6 span {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+  display: block;
+  margin: 10px 0px 10px 0px;
+}
+
+.wsus__login_text_position p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}

@@ -1,0 +1,87 @@
+/* Custom styles for ProductCategoriesComponent */
+.main-title {
+  margin-top: 50px;
+}
+
+/* Custom styles for product cards */
+.product-card {
+  width: 18rem;
+  margin: 15px auto; /* Center the cards horizontally */
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Ensures all product images are the same size */
+.product-card .image-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Hides any part of the image that overflows the container */
+  height: 200px; /* Set a consistent height for all images */
+  background-color: #f9f9f9; /* Optional: light background for better visibility */
+}
+
+.product-card .card-img-top {
+  max-width: 100%; /* Ensures images don't exceed the container's width */
+  max-height: 100%; /* Ensures images don't exceed the container's height */
+  object-fit: cover; /* Crops and fills the container with the image */
+  border-bottom: 1px solid #ddd; /* Adds a separator below the image */
+}
+/* Price styled in red */
+.product-card .card-body .card-text strong {
+  color: red; /* Set the price text color to red */
+  font-weight: bold; /* Ensure the price is bold */
+}
+
+/* Title should be limited to two lines with ellipsis */
+.product-card .card-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* Vendor-prefixed version for Safari and older browsers */
+  line-clamp: 1; /* Standard version for modern browsers */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+/* Description should be limited to four lines with ellipsis */
+.product-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 4; /* Vendor-prefixed version for Safari and older browsers */
+  line-clamp: 4; /* Standard version for modern browsers */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10px;
+}
+
+/* Adjust card body styles */
+.product-card .card-body {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Price and Add to Cart button in the same line */
+.price-and-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.price {
+  margin: 0;
+}
+
+.add-to-cart {
+  text-align: right;
+}
+
+/* Make the layout responsive */
+@media (max-width: 768px) {
+  .product-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,13 @@
+<div class="categories" id="categories">
+  <h2 class="main-title">Categories</h2>
+  <div class="container">
+    <div *ngFor="let category of categories" class="box">
+      <div class="img-holder">
+        <img [src]="'../../../../assets/images/' + category + '.jpg'" [alt]="category + ' Category'">
+      </div>
+      <h2>{{ category | titlecase }}</h2>
+      <p>Explore a variety of {{ category }} products that match your interests and lifestyle.</p>
+      <a [routerLink]="['/products/category', category]">Explore</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,12 @@
+<div class="header" id="header">
+  <div class="container">
+    <a href="/" class="logo">Sodikap</a>
+    <ul class="main-nav">
+      <li><a href="#categories">Categories</a></li>
+      <li><a href="/cart">Cart</a></li>
+      <li><a href="#aboutUs">About Us</a></li>
+      <li *ngIf="!isLoggedIn"><a href="/sign-in">Login</a></li>
+      <li *ngIf="isLoggedIn"><a (click)="logout()">Logout</a></li>
+    </ul>
+  </div>
+</div>
